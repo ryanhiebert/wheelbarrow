@@ -1,0 +1,18 @@
+[project]
+name = "wheelbarrow"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+# Hacking together dependencies as an app for now
+dependencies = [
+    "gunicorn",
+    "uvicorn",
+    "uvicorn-worker",
+    "pipdeptree",
+    "nanodjango",
+    "django",
+    "anyio",
+    "aioresult",
+    "logging-tree",
+]
